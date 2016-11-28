@@ -19,7 +19,7 @@ Rails.application.routes.draw do
 
   localized do
 
-    root to: "home#index"
+    root to: "topics#tickets"
 
     get 'omniauth/:provider' => 'omniauth#localized', as: :localized_omniauth
 
