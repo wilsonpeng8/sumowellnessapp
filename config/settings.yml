@@ -30,16 +30,16 @@ recaptcha_api_key: #Enter your api  key
 # Mail specific settings:
 # See http://support.helpy.io/en/knowledgebase/11-Installing-Helpy/docs/14-Setting-up-your-Helpy-installation-to-send-and-receive-email
 
-admin_email: inbound.support@yourdomain.com
-from_email: inbound.support@yourdomain.com # This is the email that will be used for email replies (reply to)
-send_email: false #Send email or not
+admin_email: wilson@sumowellness.com
+from_email: wilson@sumowellness.com # This is the email that will be used for email replies (reply to)
+send_email: true #Send email or not
 
-mail_service: :mandrill # :sendgrid :cloudmailin, :postmark, :mandrill, :mailgun, :sparkpost
-smtp_mail_username: # Enter your SMTP email username
-smtp_mail_password: # Enter your SMTP email password
-mail_smtp: 'smtp.mandrillapp.com' #Enter the server address for your SMTP server
+mail_service: :mailgun # :sendgrid :cloudmailin, :postmark, :mandrill, :mailgun, :sparkpost
+smtp_mail_username: postmaster@app.sumowellness.com # Enter your SMTP email username
+smtp_mail_password: 260b269152c09d199c37d75cb3fa8ce3 # Enter your SMTP email password
+mail_smtp: 'smtp.mailgun.org' #Enter the server address for your SMTP server
 mail_port: 587 #Enter the port of your SMTP server
-mail_domain: #Enter the heroku.com if you are on heroku, otherwise enter your domain
+mail_domain: heroku.com #Enter the heroku.com if you are on heroku, otherwise enter your domain
 
 # Omniauth Config
 # You must sign up with each oauth provider you wish to support, uncomment and add the ID and secret
