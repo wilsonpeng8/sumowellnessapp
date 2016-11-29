@@ -12,9 +12,8 @@
       <%= f.file_field :profile_image, label: "Avatar" unless cloudinary_enabled? %>
     </div>
     <%= f.input :bio, input_html: {:rows => 4, :cols => 60} %>
-    <%= f.input :company %>
-    <%= f.input :title %>
-    <%= f.input :signature, input_html: {:rows => 4, :cols => 60} %>
+ 
+
 
     <% if @validatable %>
     <!--<em>(<%= @minimum_password_length %> characters minimum)</em>-->
